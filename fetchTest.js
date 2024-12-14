@@ -26,7 +26,7 @@
 fetch('https://jsonplaceholder.typicode.com/posts', {
     method: 'GET',
     headers: {
-      'x-username': 'application/json; charset=UTF-8',
+      'Content-type': 'application/json; charset=UTF-8',
     },
   })
   .then((response) => response.json())
